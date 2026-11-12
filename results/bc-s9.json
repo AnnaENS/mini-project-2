@@ -1,0 +1,26 @@
+{
+ "config": {
+  "seed": 9,
+  "dataset": "data/expert_abyss.pt",
+  "max_steps": 30000,
+  "max_iterations": 0,
+  "hidden": [
+   256,
+   256
+  ],
+  "lr": 0.001,
+  "batch_size": 256,
+  "grad_steps": 3000
+ },
+ "evaluations": [
+  {
+   "step": 0,
+   "iteration": 0,
+   "dataset_size": 5851,
+   "finished": true,
+   "lap_steps": 612,
+   "return": 75.08328857421888,
+   "slow_labels": 0.0
+  }
+ ]
+}

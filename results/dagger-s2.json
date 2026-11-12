@@ -1,0 +1,773 @@
+{
+ "config": {
+  "seed": 2,
+  "dataset": "data/expert_abyss.pt",
+  "max_steps": 50000,
+  "max_iterations": 1000,
+  "hidden": [
+   256,
+   256
+  ],
+  "lr": 0.001,
+  "batch_size": 256,
+  "grad_steps": 3000
+ },
+ "evaluations": [
+  {
+   "step": 0,
+   "iteration": 0,
+   "dataset_size": 5851,
+   "finished": true,
+   "lap_steps": 654,
+   "return": 70.86771240234383,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 654,
+   "iteration": 1,
+   "dataset_size": 6505,
+   "finished": true,
+   "lap_steps": 624,
+   "return": 73.89696044921881,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 1278,
+   "iteration": 2,
+   "dataset_size": 7129,
+   "finished": true,
+   "lap_steps": 612,
+   "return": 75.07027587890637,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 1890,
+   "iteration": 3,
+   "dataset_size": 7741,
+   "finished": true,
+   "lap_steps": 624,
+   "return": 73.90385742187507,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 2514,
+   "iteration": 4,
+   "dataset_size": 8365,
+   "finished": true,
+   "lap_steps": 640,
+   "return": 72.31735839843756,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 3154,
+   "iteration": 5,
+   "dataset_size": 9005,
+   "finished": true,
+   "lap_steps": 639,
+   "return": 72.3070678710938,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 3793,
+   "iteration": 6,
+   "dataset_size": 9644,
+   "finished": true,
+   "lap_steps": 612,
+   "return": 75.00498046875015,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 4405,
+   "iteration": 7,
+   "dataset_size": 10256,
+   "finished": true,
+   "lap_steps": 602,
+   "return": 76.0956298828126,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 5007,
+   "iteration": 8,
+   "dataset_size": 10858,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.19241943359387,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 5608,
+   "iteration": 9,
+   "dataset_size": 11459,
+   "finished": true,
+   "lap_steps": 585,
+   "return": 77.79400634765635,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 6193,
+   "iteration": 10,
+   "dataset_size": 12044,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.16254882812513,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 6794,
+   "iteration": 11,
+   "dataset_size": 12645,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.1743774414064,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 7395,
+   "iteration": 12,
+   "dataset_size": 13246,
+   "finished": true,
+   "lap_steps": 623,
+   "return": 73.93590087890631,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 8018,
+   "iteration": 13,
+   "dataset_size": 13869,
+   "finished": true,
+   "lap_steps": 624,
+   "return": 73.89396972656266,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 8642,
+   "iteration": 14,
+   "dataset_size": 14493,
+   "finished": true,
+   "lap_steps": 603,
+   "return": 75.94312744140639,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 9245,
+   "iteration": 15,
+   "dataset_size": 15096,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.17813720703136,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 9846,
+   "iteration": 16,
+   "dataset_size": 15697,
+   "finished": true,
+   "lap_steps": 603,
+   "return": 75.97248535156265,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 10449,
+   "iteration": 17,
+   "dataset_size": 16300,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.18684082031258,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 11050,
+   "iteration": 18,
+   "dataset_size": 16901,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.18165283203139,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 11651,
+   "iteration": 19,
+   "dataset_size": 17502,
+   "finished": true,
+   "lap_steps": 584,
+   "return": 77.83431396484384,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 12235,
+   "iteration": 20,
+   "dataset_size": 18086,
+   "finished": true,
+   "lap_steps": 639,
+   "return": 72.34023437500012,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 12874,
+   "iteration": 21,
+   "dataset_size": 18725,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.17756347656264,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 13475,
+   "iteration": 22,
+   "dataset_size": 19326,
+   "finished": true,
+   "lap_steps": 619,
+   "return": 74.39586181640638,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 14094,
+   "iteration": 23,
+   "dataset_size": 19945,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.19534912109391,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 14695,
+   "iteration": 24,
+   "dataset_size": 20546,
+   "finished": true,
+   "lap_steps": 639,
+   "return": 72.34333496093755,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 15334,
+   "iteration": 25,
+   "dataset_size": 21185,
+   "finished": true,
+   "lap_steps": 585,
+   "return": 77.79537353515634,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 15919,
+   "iteration": 26,
+   "dataset_size": 21770,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.1687011718752,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 16520,
+   "iteration": 27,
+   "dataset_size": 22371,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.17572021484386,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 17121,
+   "iteration": 28,
+   "dataset_size": 22972,
+   "finished": true,
+   "lap_steps": 603,
+   "return": 75.9327514648438,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 17724,
+   "iteration": 29,
+   "dataset_size": 23575,
+   "finished": true,
+   "lap_steps": 639,
+   "return": 72.3579467773439,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 18363,
+   "iteration": 30,
+   "dataset_size": 24214,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.21958007812503,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 18964,
+   "iteration": 31,
+   "dataset_size": 24815,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.1844238281251,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 19565,
+   "iteration": 32,
+   "dataset_size": 25416,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.18859863281263,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 20166,
+   "iteration": 33,
+   "dataset_size": 26017,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.20258789062513,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 20767,
+   "iteration": 34,
+   "dataset_size": 26618,
+   "finished": true,
+   "lap_steps": 585,
+   "return": 77.71611328125007,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 21352,
+   "iteration": 35,
+   "dataset_size": 27203,
+   "finished": true,
+   "lap_steps": 603,
+   "return": 75.96292724609388,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 21955,
+   "iteration": 36,
+   "dataset_size": 27806,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.19101562500008,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 22556,
+   "iteration": 37,
+   "dataset_size": 28407,
+   "finished": true,
+   "lap_steps": 624,
+   "return": 73.90255126953132,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 23180,
+   "iteration": 38,
+   "dataset_size": 29031,
+   "finished": true,
+   "lap_steps": 619,
+   "return": 74.40249023437508,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 23799,
+   "iteration": 39,
+   "dataset_size": 29650,
+   "finished": true,
+   "lap_steps": 624,
+   "return": 73.91157226562511,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 24423,
+   "iteration": 40,
+   "dataset_size": 30274,
+   "finished": true,
+   "lap_steps": 603,
+   "return": 75.99841308593761,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 25026,
+   "iteration": 41,
+   "dataset_size": 30877,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.17950439453138,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 25627,
+   "iteration": 42,
+   "dataset_size": 31478,
+   "finished": true,
+   "lap_steps": 600,
+   "return": 76.20245361328134,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 26227,
+   "iteration": 43,
+   "dataset_size": 32078,
+   "finished": true,
+   "lap_steps": 603,
+   "return": 75.96970214843758,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 26830,
+   "iteration": 44,
+   "dataset_size": 32681,
+   "finished": true,
+   "lap_steps": 603,
+   "return": 75.92606201171887,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 27433,
+   "iteration": 45,
+   "dataset_size": 33284,
+   "finished": true,
+   "lap_steps": 602,
+   "return": 76.12076416015633,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 28035,
+   "iteration": 46,
+   "dataset_size": 33886,
+   "finished": true,
+   "lap_steps": 624,
+   "return": 73.89410400390635,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 28659,
+   "iteration": 47,
+   "dataset_size": 34510,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.17545166015634,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 29260,
+   "iteration": 48,
+   "dataset_size": 35111,
+   "finished": true,
+   "lap_steps": 624,
+   "return": 73.9129516601563,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 29884,
+   "iteration": 49,
+   "dataset_size": 35735,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.18647460937517,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 30485,
+   "iteration": 50,
+   "dataset_size": 36336,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.12524414062504,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 31086,
+   "iteration": 51,
+   "dataset_size": 36937,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.19139404296888,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 31687,
+   "iteration": 52,
+   "dataset_size": 37538,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.21862792968756,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 32288,
+   "iteration": 53,
+   "dataset_size": 38139,
+   "finished": true,
+   "lap_steps": 603,
+   "return": 75.97550048828138,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 32891,
+   "iteration": 54,
+   "dataset_size": 38742,
+   "finished": true,
+   "lap_steps": 584,
+   "return": 77.82615966796884,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 33475,
+   "iteration": 55,
+   "dataset_size": 39326,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.18146972656265,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 34076,
+   "iteration": 56,
+   "dataset_size": 39927,
+   "finished": true,
+   "lap_steps": 619,
+   "return": 74.36057128906259,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 34695,
+   "iteration": 57,
+   "dataset_size": 40546,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.18305664062507,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 35296,
+   "iteration": 58,
+   "dataset_size": 41147,
+   "finished": true,
+   "lap_steps": 585,
+   "return": 77.82045898437511,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 35881,
+   "iteration": 59,
+   "dataset_size": 41732,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.2043090820313,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 36482,
+   "iteration": 60,
+   "dataset_size": 42333,
+   "finished": true,
+   "lap_steps": 619,
+   "return": 74.4005126953126,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 37101,
+   "iteration": 61,
+   "dataset_size": 42952,
+   "finished": true,
+   "lap_steps": 585,
+   "return": 77.79980468750016,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 37686,
+   "iteration": 62,
+   "dataset_size": 43537,
+   "finished": true,
+   "lap_steps": 584,
+   "return": 77.81087646484384,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 38270,
+   "iteration": 63,
+   "dataset_size": 44121,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.19530029296882,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 38871,
+   "iteration": 64,
+   "dataset_size": 44722,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.19179687500016,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 39472,
+   "iteration": 65,
+   "dataset_size": 45323,
+   "finished": true,
+   "lap_steps": 618,
+   "return": 74.4118530273438,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 40090,
+   "iteration": 66,
+   "dataset_size": 45941,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.19938964843762,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 40691,
+   "iteration": 67,
+   "dataset_size": 46542,
+   "finished": true,
+   "lap_steps": 584,
+   "return": 77.82843017578138,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 41275,
+   "iteration": 68,
+   "dataset_size": 47126,
+   "finished": true,
+   "lap_steps": 602,
+   "return": 76.12813720703137,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 41877,
+   "iteration": 69,
+   "dataset_size": 47728,
+   "finished": true,
+   "lap_steps": 585,
+   "return": 77.79422607421883,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 42462,
+   "iteration": 70,
+   "dataset_size": 48313,
+   "finished": true,
+   "lap_steps": 623,
+   "return": 73.92230224609378,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 43085,
+   "iteration": 71,
+   "dataset_size": 48936,
+   "finished": true,
+   "lap_steps": 602,
+   "return": 76.12650146484388,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 43687,
+   "iteration": 72,
+   "dataset_size": 49538,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.17509765625017,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 44288,
+   "iteration": 73,
+   "dataset_size": 50139,
+   "finished": true,
+   "lap_steps": 585,
+   "return": 77.81025390625005,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 44873,
+   "iteration": 74,
+   "dataset_size": 50724,
+   "finished": true,
+   "lap_steps": 585,
+   "return": 77.81933593750009,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 45458,
+   "iteration": 75,
+   "dataset_size": 51309,
+   "finished": true,
+   "lap_steps": 603,
+   "return": 75.98342285156261,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 46061,
+   "iteration": 76,
+   "dataset_size": 51912,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.19862060546888,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 46662,
+   "iteration": 77,
+   "dataset_size": 52513,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.18430175781268,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 47263,
+   "iteration": 78,
+   "dataset_size": 53114,
+   "finished": true,
+   "lap_steps": 624,
+   "return": 73.89777832031261,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 47887,
+   "iteration": 79,
+   "dataset_size": 53738,
+   "finished": true,
+   "lap_steps": 639,
+   "return": 72.37215576171882,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 48526,
+   "iteration": 80,
+   "dataset_size": 54377,
+   "finished": true,
+   "lap_steps": 585,
+   "return": 77.82808837890634,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 49111,
+   "iteration": 81,
+   "dataset_size": 54962,
+   "finished": true,
+   "lap_steps": 602,
+   "return": 76.11791992187503,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 49713,
+   "iteration": 82,
+   "dataset_size": 55564,
+   "finished": true,
+   "lap_steps": 601,
+   "return": 76.18518066406259,
+   "slow_labels": 0.0
+  },
+  {
+   "step": 50314,
+   "iteration": 83,
+   "dataset_size": 56165,
+   "finished": true,
+   "lap_steps": 624,
+   "return": 73.8953125000001,
+   "slow_labels": 0.0
+  }
+ ]
+}

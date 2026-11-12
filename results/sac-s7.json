@@ -1,0 +1,147 @@
+{
+ "config": {
+  "seed": 7,
+  "dataset": "data/expert_abyss.pt",
+  "max_steps": 50000,
+  "learning_starts": 1000,
+  "offline_ratio": 0.0,
+  "batch_size": 256,
+  "gamma": 0.99,
+  "tau": 0.005,
+  "lr": 0.0003,
+  "hidden": [
+   256,
+   256
+  ],
+  "init_alpha": 0.2,
+  "eval_interval": 2500
+ },
+ "evaluations": [
+  {
+   "step": 0,
+   "finished": false,
+   "lap_steps": 1500,
+   "return": -142.2751396179198
+  },
+  {
+   "step": 2500,
+   "finished": false,
+   "lap_steps": 1500,
+   "return": -121.75765686035108
+  },
+  {
+   "step": 5000,
+   "finished": true,
+   "lap_steps": 876,
+   "return": 48.688964843749986
+  },
+  {
+   "step": 7500,
+   "finished": true,
+   "lap_steps": 805,
+   "return": 55.802062988281264
+  },
+  {
+   "step": 10000,
+   "finished": true,
+   "lap_steps": 829,
+   "return": 53.41640625000002
+  },
+  {
+   "step": 12500,
+   "finished": true,
+   "lap_steps": 669,
+   "return": 69.41614990234379
+  },
+  {
+   "step": 15000,
+   "finished": true,
+   "lap_steps": 648,
+   "return": 71.48898925781248
+  },
+  {
+   "step": 17500,
+   "finished": true,
+   "lap_steps": 660,
+   "return": 70.24093017578126
+  },
+  {
+   "step": 20000,
+   "finished": true,
+   "lap_steps": 629,
+   "return": 73.36551513671873
+  },
+  {
+   "step": 22500,
+   "finished": true,
+   "lap_steps": 630,
+   "return": 73.30104980468751
+  },
+  {
+   "step": 25000,
+   "finished": true,
+   "lap_steps": 599,
+   "return": 76.38234863281248
+  },
+  {
+   "step": 27500,
+   "finished": true,
+   "lap_steps": 613,
+   "return": 74.96177978515618
+  },
+  {
+   "step": 30000,
+   "finished": true,
+   "lap_steps": 621,
+   "return": 74.13729248046876
+  },
+  {
+   "step": 32500,
+   "finished": true,
+   "lap_steps": 623,
+   "return": 73.97084960937504
+  },
+  {
+   "step": 35000,
+   "finished": true,
+   "lap_steps": 612,
+   "return": 75.11276855468749
+  },
+  {
+   "step": 37500,
+   "finished": true,
+   "lap_steps": 609,
+   "return": 75.38416748046869
+  },
+  {
+   "step": 40000,
+   "finished": true,
+   "lap_steps": 621,
+   "return": 74.18530273437504
+  },
+  {
+   "step": 42500,
+   "finished": true,
+   "lap_steps": 623,
+   "return": 73.97019042968743
+  },
+  {
+   "step": 45000,
+   "finished": true,
+   "lap_steps": 609,
+   "return": 75.39841308593745
+  },
+  {
+   "step": 47500,
+   "finished": true,
+   "lap_steps": 593,
+   "return": 76.98280029296876
+  },
+  {
+   "step": 50000,
+   "finished": true,
+   "lap_steps": 607,
+   "return": 75.57486572265628
+  }
+ ]
+}
